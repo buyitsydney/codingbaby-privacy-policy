@@ -1,0 +1,49 @@
+# Privacy Policy for CodingBaby Extension
+
+**Last Updated:** [04/29 2025]
+
+## Introduction
+
+This Privacy Policy describes how the CodingBaby Extension ("Extension"), a browser extension designed to work in conjunction with the locally installed CodingBaby desktop application ("CodingBaby App"), handles user data. The primary function of this Extension is to act as a bridge, enabling browser automation and interaction recording workflows initiated and managed by the user through the CodingBaby App.
+
+Our commitment is to user privacy and transparency. This Extension is designed to process data entirely on the user's local computer.
+
+## What Data We Handle (Locally)
+
+To perform its core functions, the Extension needs to access and process certain types of user data **solely on your local machine**:
+
+*   **Web History:** The Extension accesses the URL and title of the currently active browser tab. This is necessary to understand which web page the user intends to automate or record, and to pass this context to the local CodingBaby App. **The Extension does not access or store your full browser history.**
+*   **User Activity:** When a recording or automation session is initiated via the CodingBaby App, the Extension listens for and processes interaction events on the web page. This includes clicks, mouse movements, page scrolling, and keyboard inputs. This information is used solely to record user actions or execute automation scripts as instructed by the local CodingBaby App. **Keystroke information is only processed for executing automation steps (like filling forms) or during explicit recording sessions initiated by the user, and is only transmitted to the local CodingBaby App.**
+*   **Website Content:** The Extension needs to access and interact with the structure (Document Object Model - DOM) and content of web pages. This involves reading page element information (like button labels or text content) for targeting and interaction, and executing scripts on the page to perform automation tasks (like simulating clicks or filling forms) as directed by the local CodingBaby App.
+
+## How We Use Data
+
+All data accessed and processed by the Extension is used **exclusively** for the following purposes:
+
+*   To enable the local CodingBaby App to control the browser based on user commands.
+*   To execute automation instructions initiated by the user via the local CodingBaby App.
+*   To record user interactions within the browser for playback or analysis within the local CodingBaby App.
+
+**Crucially, all data processing occurs on the user's local computer.** Data handled by the Extension is securely transmitted directly to the user's **locally installed** CodingBaby App using Chrome's `nativeMessaging` API.
+
+## How We Share Data
+
+*   User data handled by the Extension (Web History context, User Activity, Website Content) is shared **only** with the user's **locally installed** CodingBaby App/Agent via the Chrome `nativeMessaging` API.
+*   **We (the developers of CodingBaby Extension) do not access, collect, or store any user-specific browsing data, activity data, or website content processed by this Extension on our servers.**
+*   **We do not sell or share this data with any third parties.** The data remains under the user's local control.
+
+## Data Security
+
+Communication between the Extension and the local CodingBaby App occurs via Chrome's `nativeMessaging` API, a mechanism provided by Chrome for secure inter-process communication on the local machine. Users should also refer to the security practices of the CodingBaby App itself.
+
+## User Rights
+
+As user data is primarily processed and potentially stored by the local CodingBaby App, users should refer to the data management options within the CodingBaby App (e.g., viewing recordings, deleting data) to exercise control over their information.
+
+## Changes to This Policy
+
+If we make changes to this Privacy Policy, we will update the "Last Updated" date at the top of this policy and may notify users through the Chrome Web Store listing or other appropriate channels.
+
+## Contact Us
+
+If you have any questions about this Privacy Policy, please contact us at: [Insert Your Contact Email Address Here - 你需要填入你的联系邮箱]
